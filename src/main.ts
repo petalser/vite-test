@@ -9,7 +9,7 @@ const initApp = (): void => {
 
     const itemEntryForm = document.getElementById('itemEntryForm') as HTMLFormElement
     itemEntryForm.addEventListener('submit', (submit: SubmitEvent): void => { 
-        submit.preventDefault()
+        // submit.preventDefault()
 
         const input = document.getElementById('newItem') as HTMLInputElement
         const newEntryText: string = input.value.trim()

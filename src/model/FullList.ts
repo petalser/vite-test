@@ -46,7 +46,7 @@ export default class FullList implements List {
   }
 
   removeItem(id: string): void {
-      this._list = this._list.filter(listUnit => {listUnit.id !== id})
+      this._list = this._list.filter(listUnit => listUnit.id !== id)
       this.save()
   }
 }
